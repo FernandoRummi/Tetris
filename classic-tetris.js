@@ -1542,7 +1542,7 @@ class ClassicTetris {
     return true;
   }
   
-  // can the piece rotate
+  // rotate
   _canRot(rotation) {
     const p = this.piece.rot[rotation];
     for (let i = 0; i < p.length; ++i) {
